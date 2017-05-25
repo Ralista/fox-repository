@@ -15,7 +15,7 @@ public class Test1 {
     }
 
     @Test
-    public void test1(){
+    public void test(){
         driver.get("http://www.google.com/");
     }
 
