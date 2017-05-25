@@ -4,7 +4,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.HasCapabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -24,7 +23,6 @@ public class TestFirefoxESR {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability(FirefoxDriver.MARIONETTE, false);
         driver = new FirefoxDriver(new FirefoxBinary(new File("C:\\Users\\fomina.zhanna\\Mozilla Firefox ESR\\firefox.exe")), new FirefoxProfile(), caps);
-        System.out.println(((HasCapabilities) driver).getCapabilities());
     }
 
     @Test
