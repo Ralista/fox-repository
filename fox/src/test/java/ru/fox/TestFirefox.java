@@ -16,7 +16,6 @@ public class TestFirefox {
     @Before
     public void start(){
         driver = new FirefoxDriver();
-        //System.setProperty("webdriver.firefox.bin","C:\\Program Files\\Mozilla Firefox\\firefox.exe");
     }
 
     @Test
